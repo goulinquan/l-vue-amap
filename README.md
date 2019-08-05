@@ -38,3 +38,6 @@ AMapInstance.getPlugin(name);  获取插件实例, name为 "ToolBar" 或 "AMap.T
 
 plugins: [{ name: "AMap.Geolocation",options: object,onComplete: function, onError: function }] 
 定位插件提供成功/失败的回调 onComplete/onError
+
+所有参数均同步官方。
+不支持动态属性，请使用官方方法改变参数！
